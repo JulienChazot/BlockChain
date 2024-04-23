@@ -2,10 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./ERC20.sol"; // Import du contrat ERC20 depuis votre propre fichier
 
 // Déclare un contrat myToken
-contract myToken is ERC20 {
+contract myToken {
     string public name = "MyToken";
     string public symbol = "TKN";
 
